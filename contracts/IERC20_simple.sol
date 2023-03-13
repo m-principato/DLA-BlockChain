@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.6;
 
-contract HelloWorld {
+contract IERC20 {
 
-//Funktionen:
+//Functions:
 function totalSupply() public view returns (uint256 _totalSupply) {}
 function balanceOf(address _owner) public view returns (uint256 balance) {}
 function transfer(address _to, uint256 _value) public returns (bool success) {}
